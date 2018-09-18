@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://beust.com/testng/testng-1.0.dtd" >
+<suite name="接口测试 " verbose="2">
+
+    <!--<parameter name = "datasource" value="huaruitestdata.xlsx" />-->
+    <!--<parameter name = "pagexmlpath" value="page.xml" />-->
+
+    <test name="获取盐值"  enabled="true">
+        <classes>
+            <class name="testcase.getSalt" />
+            <class name="testcase.getSaltWithoutSign" />
+        </classes>
+    </test>
+
+
+</suite>
